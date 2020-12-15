@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-color: #1E40AF;
+    --off-white: #E5E7EB;
+    --dark-gray: #6B7280;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+/* text classes */
+
+.primary-text {
+    color: var(--primary-color)
+}
+
+.grey-text {
+    color: var(--dark-gray)
+}
+
+/* container */
+
+.center {
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* links */
+
+.link {
+    text-decoration: none;
+    border-radius: 0.25rem;
+    padding: 0.65rem 1rem;
+    margin: 0.5rem;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.secondary {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    box-sizing: border-box;
+    padding: 0.5rem 0.9rem;
+}
+
+.icon {
+    object-fit: cover;
+    width: 2rem;
+    height: 2rem;
+    margin: 5px;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+
+
+/* lists */
+
+.non-bullet {
+    list-style: none;
+}
+
+.inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* nav */
+
+.navigation {
+    height: 100px;
+    position: relative;
+    color: white;
+    padding: 1.75rem;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1.5rem;
+    ;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.align-right {
+    position: absolute;
+    right: 1rem;
+}
+
+.brand {
+    display: inline;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 1rem;
+    top: 0.9rem;
+}
+
+.active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid white
+}
+
+/* section */
+
+.off-white {
+    background-color: var(--off-white);
+}
+
+.section-content {
+    margin-bottom: 2rem;
+}
+
+footer {
+    padding: 0.5rem;
+    border-top-right-radius: 1.5rem;
+    text-align: center;
+}
