@@ -119,8 +119,8 @@ body {
 }
 
 .active {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border: 1px solid white
+    font-weight: 700;
+    border-bottom: 1px solid white;
 }
 
 /* section */
