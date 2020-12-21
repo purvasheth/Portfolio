@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
-*,
-*:before,
-*:after {
+* {
     box-sizing: border-box;
 }
 
 
 :root {
+    /* --off-white: #F15BB5; */
     --primary-color: #1E40AF;
-    --off-white: #E5E7EB;
+    --off-white: #d8e4ff;
     --dark-gray: #6B7280;
 }
 
